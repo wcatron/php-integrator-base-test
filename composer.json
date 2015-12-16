@@ -1,0 +1,21 @@
+{
+    "name": "php-integrator-base/TestProject",
+    "description": "Test project for php-integrator that tests services for querying PHP sources.",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Weston Catron",
+            "email": "wcatron@catrondevelopment.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "PHPIntegrator\\Models\\": "models",
+          "PHPIntegrator\\Controllers\\": "controllers"
+        }
+    }
+}
